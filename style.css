@@ -1,0 +1,135 @@
+#im{
+	margin-top: 100px;
+	width: 22%;
+	height: 200px;
+}
+#search{
+	padding-left: 20px;
+	font-size: 15px;
+	border: 0.01px solid #e6e6e6;
+	width: 580px;
+	line-height: 40px;
+	box-shadow: 0px 2px 2px 0px #e6e6e6;
+	
+}
+#search:hover{
+	padding-left: 20px;
+	font-size: 15px;
+	border: 0.01px solid #d9d9d9;
+	width: 580px;
+	line-height: 40px;
+	box-shadow: 1px 2px 2px 1px #e6e6e6;
+}
+.button{
+	color: #808080;
+	font-weight: bold;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	border:none;
+	padding:10px 26px;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+.button:hover{
+	color: black;
+	font-weight: bold;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	border:none;
+	padding:10px 26px;
+	margin-top: 20px;
+	border-width: thin;
+	box-shadow: 2px 2px 4px #e6e6e6;
+	border-radius: 2px;
+}
+.footer1{
+	font-family: Arial,Helvetica,sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #e6e6e6;
+	color: #737373;
+	text-align: center;
+	border-style: solid;
+	border-width: thin;
+	border-color: #d9d9d9;
+}
+.footer2{
+	font-family: Arial,Helvetica,sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 40px;
+	height: 50px;
+	width: 100%;
+	background-color: #e6e6e6;
+	color: #737373;
+	text-align: center;
+	border-style: solid;
+	border-width: thin;
+	border-color: #d9d9d9;
+}
+.ft{
+	font-size: 14px;
+	word-spacing: 30px;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+	color: #737373;
+}
+a:hover{
+	text-decoration: underline;
+}
+#sign_in{
+	position: fixed;
+	right: 20px;
+	top: 0;
+	width: 80px;
+	height: 35px;
+	background-color: #1e6be8;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	border:none;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+#app{
+	background-image: url("app1.png");
+	position: fixed;
+	top: 20px;
+	height: 20px;
+	width: 20px;
+	right: 120px;
+	background-size: contain;
+}
+#app:hover{
+	background-image: url("app2.jpg");
+	position: fixed;
+	top: 20px;
+	height: 20px;
+	width: 20px;
+	right: 120px;
+	background-size: contain;
+}
+#top{
+	position: fixed;
+	top: 6px;
+	right: 162px;
+	font-size: 14px;
+	font-color: black;
+	font-weight: 50;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#mic{
+	width: 40px;
+	height: 37px;
+	position: relative;
+	top:12px;
+	right: 45px;
+}
